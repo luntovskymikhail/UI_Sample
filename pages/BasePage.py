@@ -39,6 +39,7 @@ class BasePage:
         self.wait_hide = selenium.wait_hide
 
         # генерируем рандомные данные
+        self.generate_text = RandomData.generate_text
         self.random = RandomData
 
         self.wait = wait
